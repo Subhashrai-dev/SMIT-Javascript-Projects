@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  background: url(https://cdn.vectorstock.com/i/1000v/13/40/todo-list-seamless-pattern-universal-background-vector-7561340.jpg);
+}
+
+.todo-container {
+  background: #fff;
+  padding: 20px;
+  width: 500px;
+  border-radius: 5px;
+}
+
+input {
+  width: 86%;
+  padding: 6px;
+}
+
+button {
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  background: #eee;
+  padding: 6px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 3px;
+}
+
+.actions button {
+  margin-left: 5px;
+}
+
+.delete-all {
+  width: 100%;
+  margin-top: 20px;
+  background: rgb(255, 1, 1);
+  color: white;
+  border: none;
+}
